@@ -9,7 +9,9 @@ It includes buttons, UI components, and small webpage layouts to experiment with
   - Amazon: Add to Cart
   - GitHub: Sign up
   - Bootstrap: Get started & Download
-  - LinkedIn: Apply on company site & Save
-- `2f.html` → Headers practice with color and links
-- Other HTML files → Various small practice projects
-
+  - LinkedIn: Apply on company site & Save  
+  ![2b Buttons (uber,linkedin,amazon)](images/2b-buttons.png)
+- `2f.html` → Headers practice with color and links  
+  ![2f Buttons (headers,links)](images/2f-buttons.png)
+- Other HTML files → Various small practice projects  
+  ![Buttons (subs,join)](images/buttons.png)
