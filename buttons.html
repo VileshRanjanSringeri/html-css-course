@@ -3,12 +3,16 @@
     background-color: rgb(200, 0, 0);
     color: white; /* This is for the text color inside the button */
     border: none;   /* if any border needed */
-    height: 36px;   
-    width: 105px;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-right:16px;
+    padding-bottom:10px;
+    
     border-radius: 2px;  /* this for curving the border */
     cursor: pointer;     /* this to make the pointy hand symbol when hovering over the button */
     margin-right: 8px;
-    transition: opacity 0.15s;  
+    transition: opacity 0.15s;
+    vertical-align: top;  
   }
 
   .subscribe-button:hover { 
@@ -27,9 +31,11 @@
     border-color: rgb(41, 118, 211);
     border-style: solid;
     border-width: 0.9px;
-    height: 36px;
-    width: 62px;
-    border-radius: 2px;
+    padding-left: 16px;
+    padding-top:9px;
+    padding-right:16px;
+    padding-bottom:9px;
+    
     cursor: pointer;
     transition: background-color 0.15s
     color 0.15s;
@@ -39,6 +45,7 @@
   .join-button:hover {
     background-color:rgb(41, 118, 211);
     color: white;
+    box-shadow:2px 2px 12px rgba(0,0,0,1);
   }
 
 
@@ -59,6 +66,8 @@
     cursor: pointer;
     margin-left: 8px;
     transition: box-shadow 0.15s;
+    vertical-align:top;
+
    
 
   }
@@ -69,11 +78,11 @@
   }
 </style>
 <button class="subscribe-button">
-  SUBSCRIBE
+  SUBSCRIBE 
 </button>
 
 <button class="join-button">
-  JOIN
+  JOIN 
 </button>
 
 <button class="tweet-button">
