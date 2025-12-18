@@ -1,6 +1,6 @@
 <style>
   .subscribe-button { 
-    background-color: rgb(200, 0, 0);
+    background-color: rgb(255, 0, 0);
     color: white; /* This is for the text color inside the button */
     border: none;   /* if any border needed */
     padding-left: 16px;
@@ -11,13 +11,14 @@
     border-radius: 2px;  /* this for curving the border */
     cursor: pointer;     /* this to make the pointy hand symbol when hovering over the button */
     margin-right: 8px;
-    transition: opacity 0.15s;
+    transition: opacity 0.15s, width 0.15s ease;
     vertical-align: top;  
   }
 
   .subscribe-button:hover { 
     opacity:0.7;  /* This is only when hovering and if needed to make it light*/
     /* This is only 0 to 1 */
+    width:140px;
   }
 
   .subscribe-button:active { 
