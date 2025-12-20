@@ -15,6 +15,6 @@ It includes buttons, UI components, and small webpage layouts to experiment with
 - `2f.html` → Headers practice with color and links  
   ![2f Buttons (headers,links)](images/2f-buttons.png)
 
-- Other HTML files → Various small practice projects  
+- Other HTML files → Various small Replica & Mirroring  
   ![3a layout](images/3a.png)
   ![Text practice](images/text.png)
